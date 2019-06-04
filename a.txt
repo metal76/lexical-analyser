@@ -1,0 +1,15 @@
+void main()
+{
+int i ;
+double x = 0.01;
+double k = 1;
+double y = 0;
+for(i =1;i < 10000; i=i+1 )
+{
+for(i =1;i < 10000; i=i+1 )
+{
+y = y + k;
+}
+x = x + y;
+}
+}
